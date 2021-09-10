@@ -18,11 +18,11 @@ const ControlledForm = () => {
 	const formSaveHandler = ( event ) => {
 		event.preventDefault();
 		alert( `
-firstName: ${userInput.enteredFirstName} 
-lastName: ${userInput.enteredLastName}
-email: ${userInput.enteredEmail}
-phone: ${userInput.enteredPhone}
-` );
+         firstName: ${userInput.enteredFirstName} 
+         lastName: ${userInput.enteredLastName}
+         email: ${userInput.enteredEmail}
+         phone: ${userInput.enteredPhone}
+         ` );
 	};
 
 	return (
