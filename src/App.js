@@ -1,12 +1,12 @@
-import React from 'react';
+import React, {Fragment} from 'react';
 import ControlledForm from "./Components/ControlledForm";
 
 function App() {
 
 	return (
-		<div>
+		<Fragment>
 			<ControlledForm/>
-		</div>
+		</Fragment>
 	);
 }
 
